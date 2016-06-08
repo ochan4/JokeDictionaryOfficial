@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  TExt1
+//
+//  Created by 路人甲 on 16/6/6.
+//  Copyright © 2016年 路人甲. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MJRefresh.h"
+#import "APIStoreSDK.h"
+#import "UIImageView+WebCache.h"
+#import <QuartzCore/QuartzCore.h>
+#import "SJAvatarBrowser.h"//放大图片
+
+#define ImagesData [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/ImagesData.arch"]
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+#define ButtonSize 40
+#define ButtonY self.frame.size.height-ButtonSize-5
+#define Content_bg_Width 355
+#define ImageWidth 240
+#define ImageHeight 180
+#define NewFont [UIFont fontWithName:@"FZMiaoWuS-GB" size:18];
+
+#endif /* PrefixHeader_pch */
